@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.content{
+    display: flex;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+
+ul #menu{
+    display: flex;
+}
+img .illustration{
+    height: 5px;
+    width: 5px;
+}
+div .fbottom{
+    display: inline-flex;
+}
+
+div .curve{
+    max-width: fit-content;
+}
+div .text{
+    font-size: 20px;
+    left: 0px;
+    width: 60%;
+}
