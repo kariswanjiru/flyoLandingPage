@@ -13,8 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('app');
-});*/
+});
 
-Route::view(‘/{path?}’,‘app’);
+/*Route::view(‘/{path?}’,‘app’);*/
+
+Route::get('/dashboard', function () {
+    return view('welcome');
+});
+Route::get('/addPosts', function () {
+    return view('welcome');
+});
+Route::get('/edit/:id', function () {
+    return view('welcome');
+});
+
+Route::resource('/addPost',"postController");
