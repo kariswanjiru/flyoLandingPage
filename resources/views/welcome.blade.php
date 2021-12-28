@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href=”{{asset('css/app.css') }}” rel=”stylesheet”>
   <link rel="stylesheet" href="../main.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -115,8 +116,9 @@
     </p>
   </footer>
 
-    <script src="{{ asset('js/manifest.js') }}"></script>
+    <!--<script src="{{ asset('js/manifest.js') }}"></script>
     <script src="{{ asset('js/vendor.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>-->
+    <script src=”{{asset('js/app.js') }}”></script>
 </body>
 </html>
