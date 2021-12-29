@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href=”{{asset('css/app.css') }}” rel=”stylesheet”>
-  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href={{assets("../main.css") }}>
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -75,7 +75,7 @@
 <!--homesection-->
 <section class="footer">
   <div class="ftop">
-  
+       
   </div>
   <div class="fbottom">
     <div class="mwanzo">
