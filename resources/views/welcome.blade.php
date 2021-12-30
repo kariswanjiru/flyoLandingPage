@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href=”{{asset('css/app.css') }}” rel=”stylesheet”>
+  <meta name=”csrf-token” content=”{{ csrf_token() }}”>
   <link rel="stylesheet" href="../main.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -119,6 +120,7 @@
     <!--<script src="{{ asset('js/manifest.js') }}"></script>
     <script src="{{ asset('js/vendor.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>-->
+    <div id=”app”></div>
     <script src=”{{asset('js/app.js') }}”></script>
 </body>
 </html>
