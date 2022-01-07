@@ -6,8 +6,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href=”{{asset('css/app.css') }}” rel=”stylesheet”>
+<<<<<<< HEAD
   <meta name=”csrf-token” content=”{{ csrf_token() }}”>
   <link rel="stylesheet" href="../main.css">
+=======
+  <link rel="stylesheet" href={{assets("../main.css") }}>
+>>>>>>> 0b0d0bb906bb55d518a1385e447ce2886449ff82
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -76,7 +80,7 @@
 <!--homesection-->
 <section class="footer">
   <div class="ftop">
-  
+       
   </div>
   <div class="fbottom">
     <div class="mwanzo">
