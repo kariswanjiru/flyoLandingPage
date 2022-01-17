@@ -10,7 +10,7 @@
   <meta name=”csrf-token” content=”{{ csrf_token() }}”>
   <link rel="stylesheet" href="../main.css">
 
-  <link rel="stylesheet" href={{assets("../main.css") }}>
+  <link rel="stylesheet" href={{assets("../main.css")}}>
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
